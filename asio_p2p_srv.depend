@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1458181693 source:/home/yjdwbj/asio_p2p_srv/main.cpp
+	<cstdlib>
+	<deque>
+	<iostream>
+	<list>
+	<memory>
+	<set>
+	<map>
+	<vector>
+	<utility>
+	<thread>
+	"boost/asio.hpp"
+	"boost/enable_shared_from_this.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/property_tree/ptree.hpp"
+	"boost/property_tree/json_parser.hpp"
+	"boost/thread/thread.hpp"
+	"app_client.hpp"
+	"dev_client.hpp"
+
+1450102370 /media/yjdwbj/E/boost_1_60_0/boost/utility
+
+1457662984 /home/yjdwbj/asio_p2p_srv/core.hpp
+	<cstdio>
+	<cstdlib>
+	<cstring>
+
+1450102369 /media/yjdwbj/E/boost_1_60_0/boost/thread
+
+1457923047 /home/yjdwbj/asio_p2p_srv/server.hpp
+	<iostream>
+	<vector>
+	<map>
+	<sstream>
+	"boost/asio.hpp"
+	"boost/container/map.hpp"
+	"boost/unordered_map.hpp"
+	"boost/enable_shared_from_this.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/property_tree/ptree.hpp"
+	"boost/property_tree/json_parser.hpp"
+	"Message.hpp"
+	"app_client.hpp"
+	"dev_client.hpp"
+
+1458110127 /home/yjdwbj/asio_p2p_srv/Message.hpp
+	<iostream>
+	<vector>
+	<map>
+	<sstream>
+	"boost/asio.hpp"
+	"boost/container/map.hpp"
+	"boost/unordered_map.hpp"
+	"boost/enable_shared_from_this.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/property_tree/ptree.hpp"
+	"boost/property_tree/json_parser.hpp"
+	"boost/date_time/posix_time/posix_time.hpp"
+	"boost/asio/deadline_timer.hpp"
+
+1458181745 /home/yjdwbj/asio_p2p_srv/app_client.hpp
+	"Message.hpp"
+	"dev_client.hpp"
+
+1458177972 /home/yjdwbj/asio_p2p_srv/dev_client.hpp
+	"Message.hpp"
+	"app_client.hpp"
+
+1457923047 source:/home/yjdwbj/asio_p2p_srv/server.hpp
+	<iostream>
+	<vector>
+	<map>
+	<sstream>
+	"boost/asio.hpp"
+	"boost/container/map.hpp"
+	"boost/unordered_map.hpp"
+	"boost/enable_shared_from_this.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/property_tree/ptree.hpp"
+	"boost/property_tree/json_parser.hpp"
+	"Message.hpp"
+	"app_client.hpp"
+	"dev_client.hpp"
+
+1458180533 source:/home/yjdwbj/asio_p2p_srv/server.cpp
+	<iostream>
+	<vector>
+	<map>
+	<sstream>
+	"boost/asio.hpp"
+	"boost/container/map.hpp"
+	"boost/unordered_map.hpp"
+	"boost/enable_shared_from_this.hpp"
+	"boost/shared_ptr.hpp"
+	"boost/property_tree/ptree.hpp"
+	"boost/property_tree/json_parser.hpp"
+	"app_client.hpp"
+	"dev_client.hpp"
+	"console.hpp"
+
+1458180682 /home/yjdwbj/asio_p2p_srv/console.hpp
+	"dev_client.hpp"
+
